@@ -1,0 +1,1123 @@
+body{
+    height: auto;
+}
+
+
+.cabecalho{
+    background-color: #0a3ea0; 
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-around;
+    
+}
+
+.cabecalho__chamada, .cabecalho__chamada--tela-maior{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0.4rem;
+}
+
+.cabecalho__chamada--tela-maior{
+    display: none;
+}
+
+.cabecalho__chamada--primeira-chamada{
+    color: yellow;
+}
+
+.cabecalho__chamada--segunda-chamada{
+    color: #00ade6;
+}
+
+.cabecalho__imagem{
+    width: 50px;
+    padding: 0.5rem;
+    
+}
+
+.conteudo-principal{
+    box-sizing: border-box;
+}
+
+.banner__link{
+    cursor: pointer;
+}
+
+.banner__imagem{
+    width: 100%;
+    border-bottom: solid 0.5rem #2e3091;    
+}
+
+.vantagens{
+    padding: 1rem;
+    background-color: #DCDCDC;
+    border-bottom: solid 0.5rem #2e3091;
+}
+
+.vantagens__titulo--principal{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.vantagens__titulo--principal__chamada-principal{
+    color: #198b54;
+}
+
+.vantagens__titulo--principal__chamada-secundaria{
+    color: #2e3091;
+}
+
+.vantagens__texto{
+    margin-top: 1rem;
+}
+
+.vantagens__texto--primeiro-paragrafo, .vantagens__texto--segundo-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.vantagens__texto--segundo-paragrafo{
+    margin-bottom: 0;
+}
+
+.oportunidade-ideal{
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+    font-family: 'Exo', sans-serif;
+    box-sizing: border-box;
+}
+
+.oportunidade-ideal__titulo, .oportunidade-ideal__titulo--destaque{
+    color: #198b54;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0.5rem 0 1rem 0;
+    line-height: 100%;
+}
+
+.oportunidade-ideal__titulo--destaque{
+    color: #94cd0f;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.oportunidade-ideal__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin: 1rem 0 0 0;
+    box-sizing: border-box;
+}
+
+.oportunidade-ideal__card{
+    display: flex;
+    flex-direction: column;
+    background-color: #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+.oportunidade-ideal__card--imagem{
+    border-top: solid 0.5rem #2e3091;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.oportunidade-ideal__card--titulo{
+    color: #2e3091;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.oportunidade-ideal__card--texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    border-top: solid 2px #FFFFFF;
+    margin-bottom: 0;
+}
+
+.oportunidade-ideal__card--texto2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    border-top: solid 2px #FFFFFF;
+    margin-bottom: 0;
+}
+
+.oportunidade-ideal__cta{
+    padding: 1.5rem 1rem;
+    color: #FFFFFF;
+    background-color: #94cd0f;  
+    text-decoration: none;
+    cursor: pointer; 
+    font-weight: 900;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 1.5rem 0;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.oportunidade-ideal__cta2{
+    padding: 1.5rem 1rem;
+    color: #FFFFFF;
+    background-color: #94cd0f;  
+    text-decoration: none;
+    cursor: pointer; 
+    font-weight: 600;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 1.5rem;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.beneficios, .apresentacao{
+    background: rgb(11,73,85);
+    background: linear-gradient(146deg, rgba(11,73,85,1) 1%, rgba(5,5,13,1) 23%, rgba(0,0,0,1) 68%, rgba(11,73,85,1) 100%, rgba(11,11,85,1) 100%) ;
+    /*background-image: url("/assets/img/bgPreto-360.jpg");*/
+    padding: 3rem 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.beneficios__titulo, .apresentacao__titulo{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 28px;   
+    text-align: center;
+}
+
+.beneficios__listagem{
+    margin-top: 2rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.beneficios__listagem--lista{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    row-gap: 2rem;
+}
+
+.beneficios__listagem--lista--item{
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.beneficios__listagem--lista--item--item-individual{
+    border-bottom: solid 1px #00ade6;
+}
+
+.beneficios__listagem--lista--item--item-individual--titulo-beneficio{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.beneficios__listagem--lista--item-individual--imagem{
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+}
+
+.beneficios__listagem--lista--item--item-individual--titulo{
+    color: #00ade6;
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.beneficios__listagem--lista--item--item-individual--texto{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+.conteudo{
+    background-color: #DCDCDC;
+    padding: 2rem 0;
+}
+
+.conteudo__titulo, .conteudo__titulo--destaque{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #2e3091;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.conteudo__titulo--destaque{
+    color: #000000;
+}
+
+.conteudo__modulos, .ajuda__topicos{
+    padding: 0 0.5rem;
+}
+
+.conteudo__modulos--card, .ajuda__topicos--card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.conteudo__modulos--botao, .ajuda__topicos--botao{
+    background-color: #2e3091 !important;
+    color: #FFFFFF !important;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+}
+
+.conteudo__modulos--botao:focus, .conteudo__modulos--botao:active, .conteudo__modulos--botao:focus-visible, .ajuda__topicos--botao:focus, .ajuda__topicos--botao:active, .ajuda__topicos--botao:focus-visible{
+    background-color: #94cd0f !important;
+    box-shadow: none !important;
+}
+
+.conteudo__modulos--botao::after, .ajuda__topicos--botao::after{
+    background-image: url("/assets/icones/icon-box-open.svg") !important;
+    background-repeat: no-repeat;
+}
+
+.conteudo__modulos--texto-detalhado, .ajuda__topicos--texto-detalhado{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    font-weight: 700;
+    border-top: solid 3px #f68b1f;
+    margin-top: 0.5rem;
+    line-height: 2em;
+    padding: 0.5rem;
+}
+
+.conteudo__primeira-parte, .conteudo__segunda-parte, .conteudo__terceira-parte, .conteudo__quarta-parte,.conteudo__primeiro-bloco, .conteudo__segundo-bloco{
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ajuda__topicos--texto-detalhado{
+    border-top: none;
+}
+
+.conteudo__modulos--botao--titulo, .ajuda__topicos--botao--titulo{
+    padding-top: 0.5rem;
+}
+
+.apresentacao__titulo--destaque{
+    color: #00ade6;
+}
+
+.apresentacao__pessoal, .apresentacao__editora{
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.apresentacao__pessoal--escrita, .apresentacao__editora--escrita{
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__pessoal--escrita--titulo, .apresentacao__editora--escrita--texto{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #f68b1f;
+    text-align: center;
+    font-size: 22px;
+}
+
+.apresentacao__pessoal--img{
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__pessoal--imagem, .apresentacao__editora--imagem{
+    margin: 1rem 0 1rem 0;
+    max-width: 70%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.apresentacao__editora--imagem{
+    max-width: 100%;
+    height: auto;
+}
+
+.apresentacao__pessoal--escrita--texto, .apresentacao__editora--escrita--texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.apresentacao__pessoal--escrita--icones, .apresentacao__editora--escrita--icones{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.apresentacao__pessoal--imagem-picture{
+    display: flex;
+    justify-content: center;
+}
+
+
+.icone-face{
+    display: none;
+}
+
+.apresentacao{
+    border-bottom: solid 0.5rem #f68b1f;
+}
+
+.oferecimento{
+    padding: 2rem 0;
+    border-bottom: solid 0.5rem #2e3091;
+}
+
+.oferecimento__titulo, .oferecimento__titulo--destaque{
+    font-family: 'Exo', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #2e3091;
+    font-weight: 900;
+}
+
+.oferecimento__titulo--destaque{
+    color: #94cd0f;
+}
+
+.oferecimento__conteudo{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.oferecimento__conteudo--imagem{
+    max-width: 100%;
+    padding: 1.0rem;
+}
+
+.oferecimento__conteudo--oferta{
+    display: flex;
+    flex-direction: column;
+}
+
+.oferecimento__conteudo--oferta--texto{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #f68b1f;
+    font-size: 1.5rem;
+}
+
+.oferecimento__conteudo--oferta--texto--destaque{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #2e3091;
+    font-size: 48px;
+}
+
+.oferecimento__conteudo--oferta--cta{
+    padding: 1.5rem 1rem;
+    color: #FFFFFF;
+    background-color: #94cd0f;  
+    text-decoration: none;
+    cursor: pointer; 
+    font-weight: 900;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    margin: 1.5rem 0 0 0;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.ajuda{
+    background-color: #DCDCDC;
+    padding: 2rem 0;
+}
+
+.ajuda__topicos{
+    display: flex;
+    flex-direction: column;
+}
+
+.ajuda__titulo{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #2e3091;
+    padding-bottom: 3rem;
+}
+
+.ajuda__topicos--card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.primeiro__bloco--ajuda, .segundo__bloco--ajuda{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contato{
+    padding: 2rem 0;
+    background: rgb(11,73,85);
+    background: linear-gradient(146deg, rgba(11,73,85,1) 1%, rgba(5,5,13,1) 23%, rgba(0,0,0,1) 68%, rgba(11,73,85,1) 100%, rgba(11,11,85,1) 100%) ;
+    /*background-image: url("/assets/img/bgPreto-360.jpg");*/
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.contato__titulo{
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.contato__formulario{
+    padding: 0 0.5rem;
+}
+
+.contato__formulario--label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.contato__formulario--textarea{
+    margin-top: 0.25rem;
+}
+
+.contato__formulario--form--itens:focus,.contato__formulario--form--itens:focus-visible, .contato__formulario--form--itens:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.rodape__formulario--botao--divisao{
+    display: flex;
+    justify-content: end;
+}
+
+.contato__formulario--botao{
+    background-color: #00ade6 !important;
+    width: 40%;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 0.7rem;
+    display: inline;
+    border-style: none;
+}
+
+.contato__alternativo{
+    padding: 2.5rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.contato__texto--alternativo{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #f68b1f;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.contato__texto--alternativo--destaque{
+    color: #00ade6;
+}
+
+.contato__alternativo--area-imagem{
+    text-decoration: none;
+}
+
+.contato__alternativo--imagem{
+    width: 150%;
+    translate: -15%;
+}
+
+.contato__alternativo--texto-link,.contato__alternativo--texto-link--destaque{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    color: #00ade6;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.contato__alternativo--texto-link{
+    color: #FFFFFF;
+}
+
+.rodape{
+    background-color: #000000;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.rodape__direitos-autorais{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+@media screen and (min-width: 375px){
+
+    .cabecalho{
+        padding: 1rem 0;
+    }
+
+    .cabecalho__chamada, .cabecalho__chamada--primeira-chamada, .cabecalho__chamada--segunda-chamada{
+        font-size: 1rem;
+        text-align: end;
+        line-height: 1.25;
+    }
+
+    .cabecalho__imagem{
+        width: 70px;
+    }
+
+    .vantagens{
+        padding: 1.5rem 2rem;
+    }
+
+    .vantagens__titulo--principal{
+        font-size: 22px;
+    }
+
+    .oportunidade-ideal{
+        margin: 1.5rem 0;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .oportunidade-ideal__cta{
+        width: 80%;
+        align-self: center;
+    }
+
+}
+
+@media screen and (min-width: 390px){
+
+    .oportunidade-ideal{
+        align-items: center;
+    }
+
+    .oportunidade-ideal__cards{
+        align-self: center;
+    }
+
+    .beneficios,.conteudo,.apresentacao,.ajuda{
+        padding: 3rem 1rem;
+    }
+
+    .apresentacao__pessoal--imagem{
+        max-width: 60%;
+    }
+
+    .icone-face{
+        display: flex;
+    }
+
+    .contato__formulario--form{
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 410px){
+    .cabecalho{
+        align-items: center;
+    }
+
+    .cabecalho__imagem{
+        max-width: 90px;
+    }
+
+    .vantagens__texto,.oportunidade-ideal__card,.vantagens__chamada,.beneficios__listagem,.conteudo__modulos--card,.apresentacao__editora,.apresentacao__pessoal,.oferecimento__conteudo,.ajuda__topicos,.contato__formulario--form,.contato__alternativo{
+        max-width: 380px;
+    }
+
+    .vantagens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oportunidade-ideal__cards,.beneficios,.conteudo,.apresentacao,.oferecimento,.ajuda,.contato{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .oportunidade-ideal__titulo,.beneficios__titulo,.conteudo__titulo,.apresentacao__titulo,.oferecimento__titulo,.contato__titulo{
+        max-width: 80%;
+    }
+
+    .oportunidade-ideal__cta{
+        max-width: 70%;
+    }
+
+    .beneficios__listagem,.conteudo__modulos{
+        padding: 0;
+    }
+
+    .oferecimento__conteudo--oferta--texto{
+        font-size: 2rem;
+    }
+
+    .oferecimento__conteudo--oferta--texto--destaque{
+        font-size: 4rem;
+    }
+
+
+}
+
+@media screen and (min-width: 520px){
+
+    .vantagens__texto,.oportunidade-ideal__card,.vantagens__chamada,.beneficios__listagem,.conteudo__modulos--card,.apresentacao__editora,.apresentacao__pessoal,.oferecimento__conteudo,.ajuda__topicos,.contato__formulario--form,.contato__alternativo{
+        max-width: 475px;
+    }
+
+    .cabecalho__imagem{
+        width: 110px;;
+    }
+}
+
+@media screen and (min-width: 710px){
+
+    .cabecalho{
+       padding: 0.5rem;
+       justify-content: space-between; 
+    }
+    .cabecalho__chamada--tela-maior{
+        display: flex;
+        position: relative;
+        font-family: 'Exo', sans-serif;
+        font-weight: 700;
+        align-self: center;
+        left: 5%
+    }   
+
+    .cabecalho__chamada--tela-maior,.cabecalho__chamada--primeira-chamada,.cabecalho__chamada--segunda-chamada{
+        font-size: 14px;
+    }
+
+    .vantagens,.oportunidade-ideal__cards{
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 1rem;
+    }
+
+    .vantagens{
+        padding: 1.5rem
+    }
+
+    .oportunidade-ideal__card{
+        width: calc(50% - 1rem);
+        max-width: 380px;
+    }
+
+    .beneficios__listagem--lista--item{
+        width: calc(50% - 1rem);
+        max-width: 475px;
+    }
+
+    .oportunidade-ideal__cards{
+        justify-content: center;
+        align-items: stretch;
+        column-gap: 2rem;
+    }
+
+
+    .beneficios__listagem{
+        max-width: 100%;
+    }
+
+    .beneficios__listagem--lista{
+        align-items: flex-end;
+    }
+
+    .oportunidade-ideal__cta{
+        max-width: 475px;
+    }
+
+    .oportunidade-ideal__titulo,.beneficios__titulo,.conteudo__titulo,.apresentacao__titulo,.oferecimento__titulo,.contato__titulo{
+        max-width: 475px;
+    }
+
+    .beneficios__listagem--lista{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .contato__alternativo,.contato__formulario{
+        width: calc(50% - 1rem);
+        max-width: 475px;
+    }
+
+    .conteudo__modulos,.ajuda__topicos,.conteudo__modulos--card{
+        max-width: 1200px;
+        width: 100%;
+    }
+
+
+    .apresentacao__pessoal,.apresentacao__editora,.oferecimento__conteudo{
+        max-width: 100%;
+    }
+
+    .contato__titulo--formas-de-contato{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .oferecimento{
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+
+    .conteudo__modulos--card,.ajuda__topicos--card{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }    
+
+
+    .conteudo__primeiro-bloco, .conteudo__segundo-bloco, .primeiro__bloco--ajuda,.segundo__bloco--ajuda{
+        width: calc(50% - 1rem);
+    }
+    
+    .conteudo__modulos--botao{
+        height: 100px;
+    } 
+
+    .ajuda__topicos--botao{
+        height: 80px;
+    }
+
+    .apresentacao__editora--escrita, .apresentacao__pessoal--escrita,.oferecimento__conteudo{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .apresentacao__pessoal--escrita{
+        flex-direction: row-reverse;
+    }
+
+    .apresentacao__pessoal--escrita{
+        margin-top: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .apresentacao__pessoal--escrita--titulo{
+        text-align: start;
+        margin-top: 1rem;
+    }
+
+    .apresentacao__editora--texto, .apresentacao__editora--img,.apresentacao__pessoal--texto,.apresentacao__pessoal--img,.oferecimento__conteudo--imagem,.oferecimento__conteudo--oferta{
+        width: calc(50% - 1rem);
+        max-width: 475px;
+    }
+
+    .apresentacao__editora--imagem{
+        max-width: 110%;
+        translate: 0 -25%;
+    }
+
+    .apresentacao__pessoal--imagem{
+        max-width: 100%;
+        border-radius: 60px;
+        opacity: 80%;
+    }
+
+    .apresentacao__editora{
+        margin-top: 3rem;
+    }
+
+    .oferecimento__conteudo{
+        margin-top: 2rem;
+    }
+
+    .contato__formulario--form{
+        flex-direction: column;
+    }
+
+    .beneficios,.apresentacao,.contato{
+        background: rgb(11,73,85);
+        background: linear-gradient(146deg, rgba(11,73,85,1) 1%, rgba(5,5,13,1) 23%, rgba(0,0,0,1) 68%, rgba(11,73,85,1) 100%, rgba(11,11,85,1) 100%) ;
+        
+        /*background-image: url("/assets/img/bgPreto-768.jpg");*/
+    }
+
+    
+
+}
+
+@media screen and (min-width: 768px){
+    .col-md-6{
+        width: 100% !important
+    }
+}
+
+@media screen and (min-width: 912px){
+    .cabecalho{
+        justify-content: space-around;
+    }
+
+    .vantagens{
+        justify-content: center;
+        column-gap: 2rem;
+        padding: 2.5rem 1.5rem;
+    }
+
+    .beneficios__listagem--lista{
+        justify-content: center;
+        column-gap: 2rem;
+    }
+
+
+    .conteudo__modulos--card{
+        justify-content: flex-start;
+        column-gap: 1rem;
+    }
+
+
+    .apresentacao__pessoal--imagem{
+        margin: 0;
+        translate: 0 -5%;
+        max-height: 408px;
+    }
+
+    .apresentacao__editora{
+        margin-top: 5rem;
+    }
+
+    .apresentacao__editora--imagem{
+        translate: 0 -15%;
+    }
+
+    .apresentacao__editora--escrita, .apresentacao__pessoal--escrita,.oferecimento__conteudo,.ajuda__topicos,.contato__titulo--formas-de-contato{
+        justify-content: center;
+        column-gap: 2rem;
+    }
+
+    .oferecimento__conteudo--imagem{
+        scale: 1.2;
+    }
+
+    .oferecimento__conteudo--oferta--texto{
+        font-size: 2.5rem;
+    }
+
+    .oferecimento__conteudo--oferta--texto--destaque{
+        font-size: 5rem;
+    }
+
+    .oferecimento__conteudo--oferta{
+        align-items: center;
+    }
+
+    .oferecimento__conteudo--oferta--cta{
+        max-width: 80%;
+    }
+
+    .ajuda__topicos--card{
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .oportunidade-ideal__cta{
+        margin-top: 3rem;
+        padding: 2rem;
+        font-size: 2rem;
+    }
+
+    .oportunidade-ideal__cards{
+        row-gap: 2rem;
+    }
+
+    .contato__alternativo{
+        translate: 0 -15%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .banner__imagem{
+        border-bottom: solid 1rem #2e3091;
+    }
+
+    .vantagens{
+        border-bottom: solid 1rem #f68b1f;
+    }
+
+
+    .conteudo__modulos, .ajuda__topicos--card{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteudo__modulos--card{
+        column-gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .apresentacao{
+        border-bottom: solid 1rem #f68b1f;
+    }
+
+    .oferecimento{
+        border-bottom: solid 1rem #2e3091;
+    }
+
+
+    .vantagens__texto{
+        margin-top: 0;
+    }
+
+    .vantagens{
+        padding: 3.5rem 1.5rem;
+    }
+
+    .ajuda__topicos{
+        align-items: center;
+    }
+
+    .ajuda__titulo{
+        align-self: flex-start;
+    }
+
+    .beneficios__listagem--lista{
+        column-gap: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    .cabecalho__chamada--primeira-chamada,.cabecalho__chamada--segunda-chamada,.cabecalho__chamada--tela-maior,.cabecalho__chamada{
+        font-size: 20px;
+    }
+
+    .apresentacao__pessoal--imagem{
+        translate: 0 -10%;
+    }
+
+    .contato__texto--alternativo{
+        font-size: 1.5rem;
+    }
+
+    .contato__alternativo--imagem{
+        width: 175%;
+        translate: -25%;
+    }
+
+    .contato__alternativo--texto-link{
+        font-size: 20px;
+    }
+
+    .conteudo__modulos{
+        padding: 0 1rem;
+    }
+
+    .conteudo__modulos--card{
+        row-gap: 1rem;
+        max-width: 1200px;
+        justify-content: space-between;
+    }
+
+    .beneficios__listagem{
+        max-width: 1200px;
+    }
+
+     .conteudo__modulos--botao{
+        height: 130px;
+    } 
+
+    .conteudo__primeiro-bloco, .conteudo__segundo-bloco{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: calc(50% - 1rem);
+    }
+
+    .conteudo__primeira-parte, .conteudo__segunda-parte, .conteudo__terceira-parte, .conteudo__quarta-parte{
+        width: calc(50% - 1rem);
+        max-width: 290px;
+    }
+
+
+    .apresentacao__editora--escrita,.apresentacao__pessoal--escrita,.beneficios__listagem--lista,.oferecimento__conteudo,.contato__titulo--formas-de-contato{
+        column-gap: 4rem;
+    }
+
+    .rodape__direitos-autorais{
+        font-size: 14px;
+    }
+
+    .oferecimento__conteudo--oferta--cta{
+        width: 90%;
+    }
+
+    .beneficios,.apresentacao,.contato{
+        background: rgb(11,73,85);
+        background: linear-gradient(146deg, rgba(11,73,85,1) 1%, rgba(5,5,13,1) 23%, rgba(0,0,0,1) 68%, rgba(11,73,85,1) 100%, rgba(11,11,85,1) 100%) ;
+        /*background-image: url("/assets/img/bgPreto-768.jpg");*/
+    }
+
+}
